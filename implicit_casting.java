@@ -3,9 +3,9 @@ public class implicit_casting
 public static void main(String[] args)  
 {  
 int x = 21;  
-//automatically converts the integer type into long type  
+ 
 long y = x;  
-//automatically converts the long type into float type  
+   
 float z = y;  
 double a = z;
 System.out.println("Before conversion, int value "+x);  
