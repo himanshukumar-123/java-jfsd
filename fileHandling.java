@@ -1,3 +1,4 @@
+import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -13,14 +14,14 @@ class fileHandling {
 
         			            if (Obj.createNewFile()) { 
 
-        			                System.out.println("File created: "  + Obj.getName())
+        			                System.out.println("File created: "  + Obj.getName());
         			}
  
             
-            FileReader fr = new FileReader("C:\\Users\\user\\Desktop\\practice_projects\\assisted\\java-jfsd\\assited_practice");
+            FileReader fr = new FileReader("fileinput.txt");
  
              
-            FileWriter fw = new FileWriter("C:\\Users\\user\\Desktop\\practice_projects\\assisted\\java-jfsd\\assited_practice");
+            FileWriter fw = new FileWriter("Fileoutput");
  
             
             String str = " ";

@@ -6,7 +6,7 @@ public class emailvalid {
 		
 		
 	Scanner sc = new Scanner(System.in); 
-	String[] maillist = {"Anilkumle@gmail.com", "Sam@rediffmail.com", "preetam12@gmail.com", "Sachin.k@yahool.com"};
+	String[] maillist = {"himanshukumar@gmail.com" ,"Anilkumle@gmail.com", "Sam@rediffmail.com", "preetam12@gmail.com", "Sachin.k@yahool.com"};
 	System.out.print("enter your email address: ");
 	String mail=sc.next();
 	int flag=0;
