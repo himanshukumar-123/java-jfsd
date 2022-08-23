@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory name="">
+  <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+  <property name="hibernate.connection.password">rthLogan123*</property>
+  <property name="hibernate.connection.url">jdbc:mysql://localhost:3307/adding</property>
+  <property name="hibernate.connection.username">root</property>
+  <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+  <property name="hibernate.hbm2ddl.auto">update</property>
+  <mapping class="com.learnersAcademy.dto.ClassesDto"></mapping>
+
+		<mapping class="com.learnersAcademy.dto.StudentsDto"></mapping>
+
+		<mapping class="com.learnersAcademy.dto.SubjectsDto"></mapping>
+
+		<mapping class="com.learnersAcademy.dto.TeachersDto"></mapping>
+		
+		<mapping class="com.learnersAcademy.dto.AssignmentsMappingDto"></mapping>
+ </session-factory>
+</hibernate-configuration>
